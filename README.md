@@ -1,2 +1,2 @@
-# SporTatic
+# SporTastic
 Sport Themed gif search.
