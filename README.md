@@ -1,2 +1,2 @@
-# SporTastic
-Sport Themed gif search.
+# MovieTastic
+Movie Themed gif search.

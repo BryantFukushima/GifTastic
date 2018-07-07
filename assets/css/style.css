@@ -5,3 +5,9 @@
 img {
 	max-width: 200px;
 }
+
+@media screen and (max-width: 992px) {
+	img {
+		max-width: 80%;
+	}
+}

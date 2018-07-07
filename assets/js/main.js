@@ -1,4 +1,4 @@
-var topics = ['UFC', 'baseball', 'basketball', 'football', 'soccer', 'tennis', 'wrestling', 'jiu-jitsu', 'hockey', 'golf'];
+var topics = ['infinity wars' , 'imitation game' , 'ready player one' , 'the notebook' , 'the terminator' , 'the matrix'];
 
 function topicButtons() {
 	for (var i in topics) {
@@ -23,7 +23,7 @@ function apiSearch() {
 
 	        for (var j in response.data) {
 	        	var gifDiv = $('<div>');
-	        	gifDiv.addClass('col-4 showGif');
+	        	gifDiv.addClass('col-lg-4 showGif text-center');
 	        	var gif = $('<img>');
 	        	gif.addClass('gifImg');
 		        gif.attr('src', response.data[j].images.original_still.url);
