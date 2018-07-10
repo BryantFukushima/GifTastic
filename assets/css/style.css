@@ -2,6 +2,27 @@
 	margin: 10px 0;
 }
 
+body {
+	background: grey;
+}
+
+#display {
+	background: white;
+	border-radius: .3rem;
+}
+
+.jumbotron {
+	margin-top: 2rem;
+}
+
+#topicBtns {
+	margin-top: 2rem; 
+}
+
+#addVal {
+	margin-top: 2.5rem;
+}
+
 img {
 	max-width: 200px;
 }
@@ -10,4 +31,15 @@ img {
 	img {
 		max-width: 80%;
 	}
+}
+
+.favorite {
+	border: 1px solid black;
+}
+
+.plot {
+	position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: auto 20px;
 }
