@@ -48,7 +48,7 @@ function apiSearch() {
 
 function omdbSearch() {
 
-	var movieURL =  'http://www.omdbapi.com/?apikey=a6aa09f&t=' + search;
+	var movieURL =  'https://www.omdbapi.com/?apikey=a6aa09f&t=' + search;
     $.ajax({
         url: movieURL,
     }).then(function(responseM) {
