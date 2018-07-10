@@ -23,6 +23,10 @@ body {
 	margin-top: 2.5rem;
 }
 
+.poster {
+	text-align: center;
+}
+
 img {
 	max-width: 200px;
 }
