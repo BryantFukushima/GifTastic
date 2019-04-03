@@ -1,4 +1,4 @@
-# MovieTastic
+# GifTastic
 Movie Themed gif search.
 
 ## BUTTONS
